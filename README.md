@@ -3,7 +3,7 @@
 
 ## Assignment Overview: 
 
-In this assignment, you will be implementing the K-Means algorithm from scratch. K-Means is one of the fundamental unsupervised learning algorithms that partitions data into K distinct clusters based on distance metrics. 
+In this assignment, you will be implementing the K-Means algorithm from scratch. K-Means is one of the fundamental unsupervised learning algorithms that partition data into K-distinct clusters based on distance metrics. 
 
 You will be working with the classic Iris dataset to train your implementation and an extended iris dataset to test your implementation. 
 
@@ -32,11 +32,11 @@ The original Iris dataset contains 4 recorded features of the iris flower:
 KMeans clustering works by:
 
 1. Randomly initializing K centroids
-2. Assigning points to nearest centroid
-3. Updating centroid positions based on mean of assigned points
+2. Assigning points to the nearest centroid
+3. Updating centroid positions based on the mean of assigned points
 4. Repeating steps n-iterations until convergence
 
-The algorithm uses distance metrics (typically Euclidean) to measure similarity between points and centroids. 
+The algorithm uses distance metrics (typically Euclidean) to measure the similarity between points and centroids. 
 
 ### Plotting Predictions
 Once you've successfully created your KMeans algorithm, initialize your KMeans algorithm, fit and predict your model on the extended-iris dataset, choose a scoring method to use and plot it!
@@ -47,7 +47,7 @@ Note: Make sure you import the scoring method you chose.
 One method you may remember from class is the elbow technique which helps you determine the optimal number of clusters (K) for KMeans clustering. It works by: 
 1. Running KMeans with different values of K
 2. Calculating the inertia for each K
-3. Plotting K vs. intertia 
+3. Plotting K vs. inertia 
 4. Finding the elbow point where increasing K yields diminishing returns 
 
 ### Resources to help you get started
@@ -67,7 +67,7 @@ Plotting your data and Finding K
 
 Note: You do not need to modify anything in visualization.py.
 
-### As a reminder, try not to use chatgpt to generate code, but have suggest tools that may be helpful
+### As a reminder, try not to use ChatGPT to generate code, but have it suggest tools that may be helpful
 
 
 # Grading (70 points total): 
@@ -95,7 +95,7 @@ Note: You do not need to modify anything in visualization.py.
     * Model predicts centroid on new dataset (1)
 
 * Visualization (20):
-    * Picked proper scoring method to evaluate KMeans model (5)
+    * Picked the proper scoring method to evaluate the KMeans model (5)
     * Utilized plot_3d_cluster to view clusters (3)
     * Generated Elbow Plot (12)
 
